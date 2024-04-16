@@ -13,7 +13,7 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    environment: production
+    environment: ${{ github.ref_name }}
     env:
       DATABASE_URL: ${{ vars.DATABASE_URL }}
 
