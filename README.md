@@ -33,7 +33,7 @@ The PR should not complete if the test fails.
 
 - When a new git branch is delted (e.g. on PR merge), the GitHub integration does the following.
   - Deletes thew **Neon branch** associuated with the git branch.
-  - Deltes the GitHub environment and its variables associated with the deleted branch
+  - Deletes the GitHub environment and its variables associated with the deleted branch
 
 ### Changing the Neon primary branch
 
