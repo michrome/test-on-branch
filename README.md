@@ -11,8 +11,5 @@ This is a Node.js app that icludes a simple `npm run test` that:
 ### Adding the GitHub integration
 
 - From the Neon console, I add the GitHub integration to my Neon project and select this as the connected repo.
-- In this repo, I will find the GitHub integration has created a `main` environment that contains a `DATABASE_URL` variable for my Neon primary branch.
-
-<img src="/images/main-environment-created.png" />
-
-<img src="/images/main-var-created.png" />
+- In this repo, I will find the GitHub integration has created a `main` environment. <img src="/images/main-environment-created.png" />
+- The `main` environment contains a `DATABASE_URL` variable for my Neon primary branch. <img src="/images/main-var-created.png" />
